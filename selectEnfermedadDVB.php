@@ -1,5 +1,5 @@
 <?php
-include('https://github.com/Robert-09/cowapp.git/functions.php');
+include('functions.php');
 //$tipo = $_GET['txtTi'];
 $array = array();	
 if($resultset=getSQLResultSet("SELECT * FROM enfermedadDVB")){
